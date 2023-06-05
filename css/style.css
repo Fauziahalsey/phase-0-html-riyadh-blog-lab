@@ -1,77 +1,86 @@
 @import url(http://fonts.googleapis.com/css?family=Gabriela);
-
 html, body {
   height: 100%;
   min-height: 100%;
 }
-
 body {
   background-color: rgba(22, 74, 187, 0.801);
-  /* background: url(../images/backgrounds/architecture.jpg) center no-repeat; */
+   background: url(../images/backgrounds/architecture.jpg) center no-repeat; 
   background-size: cover;
   background-attachment: fixed;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
-  color: maroon;
+  color: rgb(95, 10, 252);
 }
-
 .wrapper {
   margin: 0 auto;
   width: 60%;
   padding-bottom: 40px;
 }
-
 #content {
   padding: 20px;
   background: rgba(255,255,255,.85);
 }
-
+#content1 {
+  padding: 20px;
+  background: rgba(255,255,255,.85);
+  width: 55%;
+  margin-left: 22rem;
+}
+#content2 {
+  padding: 20px;
+  background: rgba(255,255,255,.85);
+  width: 55%;
+  margin-left: 22rem;
+}
 h1, h2 {
   font-family: 'Gabriela', serif;
   color: #fff;
 }
-
 h1 {
   font-size: 3.5em;
   margin-bottom: 0;
 }
-
 h2 {
   font-size: 1.5em;
   margin-top: .5em;
 }
-
 h3 {
   font-family: 'Gabriela', serif;
   font-size: 1.5em;
   margin-top: .5em;
 }
-
+h4{
+  margin-left: 12rem;
+  
+}
+h5{
+  margin-left: 12rem;
+}
+p{
+  margin-left: 12rem;
+  color: #000;
+}
 img {
-  max-width: 100%;
+   max-width: 100%; 
   width: 100%;
   height: auto;
 }
-
 p {
   font-size: 1em;
 }
-
 a {
   color: black;
   text-decoration: none;
 }
-
 a:hover {
   text-decoration: underline;
 }
-
 @media only screen and (max-width: 1042px) {
   .wrapper {
     width: 80%;
   }
 }
-
 @media only screen and (max-width: 784px) {
   body {
     font-size: 120%;
